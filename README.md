@@ -4,3 +4,4 @@ This little just-for-fun project shows you a movie from IMDB that has the same r
 
 Live Demo: https://vaccine-imdb-app.glitch.me/
 
+![Preview_Image_Vaccination-IMDB](https://github.com/MichaelEder1/Austria-Vaccination-IMDB-comparison/blob/main/vaccindation-imdb.png)
