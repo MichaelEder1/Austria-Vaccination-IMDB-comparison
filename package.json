@@ -1,0 +1,15 @@
+{
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "*",
+    "ejs": "*",
+    "node-fetch": "*",
+    "jsdom": "*"
+  },
+  "engines": {
+    "node": "12.x"
+  }
+}

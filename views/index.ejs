@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Vaccination Rate Movie</title>
+    <style type="text/css">
+        @import url('https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,900;1,900&display=swap');
+
+        body {
+            font-family: 'Barlow', sans-serif;
+            text-transform: uppercase;
+            font-weight: 900;
+            line-height: 150%;
+            font-size: 1.8em;
+            display: flex;
+            height: 100vh;
+            align-items: center;
+            padding: 8vmin;
+            box-sizing: border-box;
+            max-width: 800px;
+            margin: auto;
+        }
+
+        body > div {
+            padding: 2vmin;
+        }
+
+        body > div:first-of-type {
+
+            text-align: right;
+        }
+
+        .rate {
+            display: block;
+            font-size: 1.8em;
+            margin-top: 6px;
+        }
+
+        .movie {
+
+            background-color: #fdee00;
+        }
+
+    </style>
+</head>
+<body>
+<div>
+    Austria's<br>
+    vaccination<br>
+    rate is
+    <span class="rate"><%= vaccinationRate %>%</span>
+</div>
+<div>
+    <img src="<%= movie.image %>">
+</div>
+<div>
+    which is the same as the rating of<br>
+    <span class="movie"><%= movie.title %></span>
+</div>
+</body>
+</html>
+
+
+
